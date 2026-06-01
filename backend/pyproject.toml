@@ -1,1 +1,15 @@
-# TODO: Add uv project metadata and backend dependencies.
+[project]
+name = "backend"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "alembic>=1.16.5",
+    "asyncpg>=0.31.0",
+    "fastapi[all]>=0.128.8",
+    "pgvector>=0.4.2",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.11.0",
+    "python-dotenv>=1.2.1",
+    "sqlalchemy[asyncio]>=2.0.50",
+    "uvicorn[standard]>=0.39.0",
+]
