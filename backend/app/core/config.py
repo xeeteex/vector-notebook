@@ -3,6 +3,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     DATABASE_URL: str
     EMBEDDING_DIMENSIONS: int
+    GEMINI_API_KEY: str
+    EMBEDDING_MODEL: str
     
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 

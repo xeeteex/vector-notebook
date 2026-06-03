@@ -1,4 +1,5 @@
-# Hybrid Notebook
+# Hybrid Notebook  
+ uv run uvicorn app.main:app --reload
 
 Hybrid Notebook is an AI-powered semantic notebook application.
 
