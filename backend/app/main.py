@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from sqlalchemy import text
 
 app = FastAPI(title= "Hybrid Notebook API")
 
